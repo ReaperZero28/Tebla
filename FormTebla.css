@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header{
+    background-color: black;
+    min-height: 100px;
+}
+
+nav{
+    color: white;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 55px;
+}
+
+.TopLogo{
+    padding-top: 30px;
+    padding-right: 1100px;
+    width: 200px;
+    height: 60px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.TopLogo:hover{
+    filter: contrast(5%);
+}
+
+.TopLogo a:link, a:visited{
+    color: white;
+}
+
+.TestDrive{
+    padding-top: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mid{
+    background-image: url("bgv4.jpg");
+    min-height: 1000px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.title{
+    background-color: rgb(255, 255, 255, 0.7);
+    font-size: 200%;
+    color: black;
+    text-align: center;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab{
+    min-height: 100px;
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    font-size: 150%;
+}
+
+.sub{
+    padding-top: 20px;
+}
+
+.snr{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+footer{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    min-height: 230px;
+}
+
+.nyt{
+    width: 330px;
+    height: 50px;
+    padding-right: 50px;
+}
+
+.nyt:hover{
+    filter: contrast(10%);
+}
+
+.nasa{
+    width: 200px;
+    height: 50px;
+}
+
+.nasa:hover{
+    filter: contrast(10%);
+}

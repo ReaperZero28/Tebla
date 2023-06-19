@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-image: url("bgv3.jpg");
+    min-height: 950px;
+    position: relative;
+    /* opacity: 1; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+    /* top: 0; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+    height: 60px;
+}
+
+.TestDrive{
+    text-align: right;
+    padding: 10px;
+    border-style: solid;
+}
+
+.TestDrive:hover {
+    filter: contrast(5%);
+}
+
+.TopLogo{
+    padding-top: 30px;
+    padding-right: 1350px;
+    width: 200px;
+    height: 50px;
+}
+
+.Prologue{
+    text-align: left;
+    padding-left: 1400px;
+    padding-right: 10px;
+    padding-top: 200px;
+    font-size: 40px;
+}
+
+.info{
+    vertical-align: text-top;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.speed{
+    display: inline-block;
+    color: white;
+    padding-left: 1100px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+.baggage{
+    display: inline-block;
+    color: white;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+.range{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+.mid{
+    min-height: 600px;
+    text-align: center;
+}
+
+.m1{
+    display: inline-block;
+    text-align: center;
+    padding-right: 130px;
+}
+
+.model1{
+    width: 320px;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.model1:hover{
+    filter: contrast(60%);
+}
+
+.m2{
+    display: inline-block;
+    text-align: center;
+    padding-right: 130px;
+}
+
+.model2{
+    width: 320px;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.model2:hover{
+    filter: contrast(60%);
+}
+
+.m3{
+    display: inline-block;
+    text-align: center;
+    padding-right: 130px;
+}
+
+.model3{
+    width: 320px;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.model3:hover{
+    filter: contrast(60%);
+}
+
+.m4{
+    display: inline-block;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.model4{
+    width: 320px;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.model4:hover{
+    filter: contrast(60%);
+}
+
+.tes{
+    min-height: 200px;
+    padding-left: 920px;
+    padding-right: 920px;
+}
+
+.tesdrive{
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.tesdrive:hover {
+    filter: contrast(5%);
+}
+
+.tesdrive a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    min-height: 230px;
+}
+
+.nyt{
+    width: 330px;
+    height: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.nyt:hover{
+    filter: contrast(10%);
+}
+
+.nasa{
+    width: 200px;
+    height: 50px;
+}
+
+.nasa:hover{
+    filter: contrast(10%);
+}
